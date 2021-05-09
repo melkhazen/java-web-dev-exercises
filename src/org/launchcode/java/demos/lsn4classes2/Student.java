@@ -97,6 +97,6 @@ public class Student {
         sally.addGrade(12, 3.5);
         System.out.println(sally);
         sally.addGrade(25, 3.8);
-        System.out.println(sally);
+        System.out.println(sally.getGradeLevel());
     }
 }
